@@ -21,7 +21,7 @@ public class GameControler : MonoBehaviour
     public bool _CheckHit = false; // Biến kiểm tra xem có hit mục tiêu hay không
     public int _Level = 1; // Độ khó game: 1 = Dễ, 2 = Trung bình, 3 = Khó
 
-    // Các đối tượng quản lý UI, Camera, Map, v.v.
+    // Các đối tượng quản lý UI, Camera, Map, v.v
     UIManager _UIManager;
     CameraControler _cameraControler;
     MapControler _mapControler;
